@@ -1,0 +1,40 @@
+:root {
+	font-size: 16px;
+}
+
+body {
+	margin: 15%;
+	background-image: url("pic.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.main-section {
+	position: relative;
+    text-align: center;
+	display: flex; flex-direction: column;
+}
+
+.inner-row {
+	font-size: 1rem;
+}
+
+button {
+	width: 50%;
+	background-color: rgb(255, 99, 30);
+	color: rgb(200,200,200);
+	
+}
+
+p {
+	display: none;
+	background-color: rgb(255, 8, 8);
+	width: 35vw;
+	margin-left: 25%;
+    color: #0b0404
+
+}
